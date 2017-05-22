@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "451804101163",
+    "firebase_url": "https://appprotect-7d28c.firebaseio.com",
+    "project_id": "appprotect-7d28c",
+    "storage_bucket": "appprotect-7d28c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451804101163:android:bbc2cd4f6106700d",
+        "android_client_info": {
+          "package_name": "com.nikola.appprotect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451804101163-biito74v2jlspcc4ilt3e2mg7uu6sj03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE04FkUawP7KGNdAdYXsNwgiEVptvnXPo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

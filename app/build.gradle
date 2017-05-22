@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+	signingConfigs {
+		config {
+			keyAlias 'key0'
+			keyPassword 'Nikola0417'
+			storeFile file("$rootDir/keystore.jks")
+			storePassword 'Nikola0417'
+		}
+	}
+	compileSdkVersion 24
+	buildToolsVersion "25.0.2"
+	defaultConfig {
+		applicationId "com.nikola.appprotect"
+		minSdkVersion 19
+		targetSdkVersion 21
+		versionCode 1
+		versionName "1.0"
+		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			signingConfig signingConfigs.config
+		}
+	}
+}
+ext {
+	supportLibVersion = '23.3.0'
+}
+
+dependencies {
+	compile fileTree(include: ['*.jar'], dir: 'libs')
+	androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+		exclude group: 'com.android.support', module: 'support-annotations'
+	})
+	compile "com.android.support:appcompat-v7:${supportLibVersion}"
+	compile "com.android.support:design:${supportLibVersion}"
+	compile "com.android.support:recyclerview-v7:${supportLibVersion}"
+	compile 'com.jakewharton:butterknife:8.0.1'
+	apt 'com.jakewharton:butterknife-compiler:8.0.1'
+	compile 'com.github.bumptech.glide:glide:3.7.0'
+	compile 'com.jakewharton.timber:timber:4.1.2'
+	compile 'io.reactivex:rxandroid:1.2.1'
+	compile 'io.reactivex:rxjava:1.1.6'
+	compile 'nl.qbusict:cupboard:2.1.4'
+	testCompile 'junit:junit:4.12'
+	compile 'com.google.code.gson:gson:2.7'
+	compile 'com.facebook.stetho:stetho:1.4.2'
+	compile 'com.facebook.stetho:stetho-okhttp3:1.4.2'
+	compile 'com.google.firebase:firebase-ads:10.2.0'
+	compile 'com.google.firebase:firebase-core:10.2.0'
+	compile 'com.jaredrummler:android-processes:1.0.9'
+}
+

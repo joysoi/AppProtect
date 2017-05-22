@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">App Protect</string>
+    <string name="fake_subject">Application not responding</string>
+    <string name="fake_locked">is Protected</string>
+    <string name="fake_pop_up_part_one">When a protected app is opened, a fake pop up will be shown</string>
+    <string name="fake_pop_up">Tutorial</string>
+    <string name="fake_pop_up_part_two">This will fool users into thinking the app has crashed.</string>
+    <string name="fake_pop_up_part_three"><b>*</b><i>If you hold down </i><b>Application not responding</b> <i>text, the application will be accessible.</i></string>
+    <string name="ok">OK</string>
+    <string name="app_crushed_dialog">App crushed dialog</string>
+    <string name="usage">usage</string>
+    <string name="fake_msg">The application has stopped unexpectedly. Please try again.</string>
+    <string name="permission_access_dialog_message">In Android 5.1 or above, you must permit App Protect to %1$s access so that you can use this function.</string>
+    <string name="permission_access_tutorial_line1">1. Find %1$s</string>
+    <string name="permission_access_tutorial_line2">2. Switch ON to permit %1$s access.</string>
+    <string name="allow_access">Allow access?</string>
+    <string name="permit">Permit</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="app_label">AP</string>
+    <string name="search_hint">hint</string>
+    <string name="search_title">title</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="lock_apps">Lock All Apps</string>
+    <string name="unlock_apps">Unlock All Apps</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="widget_icon">Widget Icon</string>
+    <string name="lock_image">Lock image</string>
+    <string name="app_icon">App icon</string>
+</resources>
