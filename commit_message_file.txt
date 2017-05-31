@@ -1,5 +1,8 @@
+fix: Implement keystore file
 
-fix:
+Include the keystore (.jks) file and refer to it by a relative path to
+complete the signing configuration.
 
-Implement keystore file.
+
+
 
