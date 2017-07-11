@@ -15,6 +15,7 @@ If a user locks an application, a service is started. The service purpose is to 
 The activity has excludeFromRecents attribute set to true which allowes me to hide any fingerprints on the app not responding dialog, and not allowing the user to manually kill the app the service is able to find the top foreground app through GET_TASKS  permission or PACKAGE_USAGE_STATS for devices with api 21 and up the service is kept alive by a broadcast receiver which pings it on every 20 seconds. 
 
 ### Screenshots:
-<img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-19%20(1).png"/>
+<img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-19%20(1).png"
+height="520" width="290" align="left"/>
 <img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-31.png" />
 <img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-50%20(1).png" />
