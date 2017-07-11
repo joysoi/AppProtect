@@ -16,7 +16,7 @@ The activity has excludeFromRecents attribute set to true which allowes me to hi
 
 ### Screenshots:
 <img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-19%20(1).png"
-height="420" width="190" align="left"/>
+height="420" width="290" align="left"/>
 <img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-31.png" 
 height="520" width="290" align="left"/>
 <img src="https://github.com/joysoi/AppProtect/blob/master/art/Screenshot_2016-12-11-21-19-50%20(1).png" 
